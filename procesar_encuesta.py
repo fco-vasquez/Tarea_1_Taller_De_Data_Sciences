@@ -1,7 +1,7 @@
 import csv
 import pandas as pd #Queria que se vieran los datos tal cual como se veian en el csv y solo supe hacerlo con panda
 import statistics
-import io
+
 def leer_datos(): #Muestra la tabla de datos del archivo seleccionado por el usuario
     archivo = input('Ingrese el nombre del archivo: ')
     df = pd.read_csv(archivo, sep=' ')
